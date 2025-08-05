@@ -1,0 +1,77 @@
+/* ---- Estilos Gerais do Corpo da Página ---- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9; /* Cor de fundo suave */
+    color: #333; /* Cor do texto principal */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza o container horizontalmente */
+    align-items: center;    /* Centraliza o container verticalmente */
+    flex-direction: column;
+}
+
+/* ---- Estilo do Container Principal ---- */
+.container {
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    padding: 25px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave para dar profundidade */
+    width: 100%;
+    max-width: 500px; /* Largura máxima para melhor leitura em telas grandes */
+}
+
+/* ---- Estilos dos Títulos ---- */
+h1, h2 {
+    color: #5a2d82; /* Cor roxa para destaque */
+    text-align: center;
+}
+
+/* ---- Estilos para os Grupos de Formulário ---- */
+.form-group {
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+label {
+    display: block; /* Faz o label ocupar a linha inteira */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding não afete a largura total */
+}
+
+/* ---- Estilo do Botão Principal ---- */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a2d82; /* Cor de fundo roxa */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s; /* Transição suave para o hover */
+}
+
+button:hover {
+    background-color: #482469; /* Cor mais escura ao passar o mouse */
+}
+
+/* ---- Estilo da Área de Resultados ---- */
+#resultados {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9e2f1; /* Fundo levemente roxo para destaque */
+    border-left: 5px solid #5a2d82; /* Borda esquerda para ênfase */
+}
+
+#resultados p {
+    margin: 5px 0; /* Espaçamento vertical para os parágrafos do resumo */
+}
